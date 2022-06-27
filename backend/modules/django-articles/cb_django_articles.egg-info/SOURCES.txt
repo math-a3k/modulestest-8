@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+cb_django_articles.egg-info/PKG-INFO
+cb_django_articles.egg-info/SOURCES.txt
+cb_django_articles.egg-info/dependency_links.txt
+cb_django_articles.egg-info/top_level.txt
