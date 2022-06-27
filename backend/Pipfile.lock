@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d88938c30f1020ea8648ef1fade958f76f65d2cdaa88bdee3e323f676c0d050a"
+            "sha256": "a10cdc505807aab1c78c1c3f57a794e24e9ed65bde4aa5a8779075c3ad970313"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -45,7 +45,7 @@
                 "sha256:20a866351f9f65cfe27edc21d755de60e17a1fbb1273d73fc0006ed0d6f8ef86",
                 "sha256:74426179c75debd77c6dcc2d66cfd506e52962e605d2b9f2dbca290474539c8b"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==1.27.18"
         },
         "cachetools": {
@@ -55,6 +55,10 @@
             ],
             "markers": "python_version ~= '3.7'",
             "version": "==5.2.0"
+        },
+        "cb-django-articles": {
+            "editable": true,
+            "path": "./modules/django-articles"
         },
         "certifi": {
             "hashes": [
@@ -264,9 +268,7 @@
             "version": "==13.14.0"
         },
         "google-api-core": {
-            "extras": [
-                "grpc"
-            ],
+            "extras": [],
             "hashes": [
                 "sha256:06f7244c640322b508b125903bb5701bebabce8832f85aba9335ec00b3d02edc",
                 "sha256:93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50"
@@ -472,7 +474,7 @@
                 "sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852",
                 "sha256:6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==3.1.2"
         },
         "jmespath": {
@@ -480,7 +482,7 @@
                 "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980",
                 "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==1.0.1"
         },
         "markupsafe": {
@@ -526,7 +528,7 @@
                 "sha256:f121a1420d4e173a5d96e47e9a0c0dcff965afdf1626d28de1460815f7c4ee7a",
                 "sha256:fc7b548b17d238737688817ab67deebb30e8073c95749d55538ed473130ec0c7"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==2.1.1"
         },
         "oauthlib": {
@@ -622,7 +624,7 @@
                 "sha256:ef0768a609a02b2b412fa0f59f1242f1597e9bb15188d043f3fde09115ca6c69",
                 "sha256:f2f43ae8dff452aee3026b59ea0a09245ab2529a55a0984992e76bcf848610e1"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==4.21.2"
         },
         "psycopg2": {
@@ -791,7 +793,7 @@
                 "sha256:bc7861137fbce630f17b03d3ad02ad0bf978c844f3536d0edda6499dafce2b6f",
                 "sha256:d568723a7ebd25875d8d1eaf5dfa068cd2fc8194b2e483d7b1f7c81918dbec6b"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
+            "markers": "python_version < '4' and python_full_version >= '3.7.0'",
             "version": "==2.28.0"
         },
         "requests-oauthlib": {
@@ -854,7 +856,7 @@
                 "sha256:06176b74f3a15f61f1b4f25a1fc29a4429040b7647133a463da8fa5bd28d5ecd",
                 "sha256:2ed07d3866f523cc561bf4a00fc5535827981b117dd7876f036b0c1aca42c947"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==0.6.0"
         },
         "six": {
@@ -886,7 +888,7 @@
                 "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
                 "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
             ],
-            "markers": "python_version >= '3.7'",
+            "markers": "python_full_version >= '3.7.0'",
             "version": "==2.0.1"
         },
         "uritemplate": {
